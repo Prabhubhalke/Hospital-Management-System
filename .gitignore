@@ -1,0 +1,71 @@
+# Hospital Management System .gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Database files (except schema)
+*.sql
+!database/hospital.sql
+
+# Configuration files with sensitive data
+config.php
+.env
+
+# Cache and session files
+cache/
+sessions/
+tmp/
+
+# Upload directories (if any)
+uploads/
+temp/
+
+# Debug files (remove in production)
+debug_login.php
+direct_login.php
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Node modules (if any)
+node_modules/
+
+# Composer files (if any)
+vendor/
+composer.lock
+
+# PHP error logs
+error_log
+php_errors.log
+
+# Apache/Nginx logs
+*.log
+logs/
+
+# System files
+desktop.ini 
